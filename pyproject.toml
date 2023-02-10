@@ -10,6 +10,7 @@ packages = [{include = "thud_generator"}]
 python = "^3.11"
 fastapi = "^0.91.0"
 uvicorn = "^0.20.0"
+sqlalchemy = "^2.0.3"
 
 [tool.poetry.scripts]
 start = "thud_generator.main:start"
